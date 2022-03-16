@@ -1,11 +1,11 @@
-#include "dialog.h"
+#include "mylineedit.h"
 
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Dialog w;
+    MyLineEdit w;
     w.show();
     return a.exec();
 }

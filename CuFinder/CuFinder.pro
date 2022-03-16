@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui sql
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -10,13 +10,10 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    dialog.cpp
+    mylineedit.cpp
 
 HEADERS += \
-    dialog.h
-
-FORMS += \
-    dialog.ui
+    mylineedit.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
